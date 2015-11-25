@@ -36,3 +36,4 @@ nuget Respond
 nuget WebGrease
 nuget WindowsAzure.Storage
 nuget xunit
+nuget xunit.runner.console
