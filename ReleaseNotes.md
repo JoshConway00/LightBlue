@@ -1,6 +1,11 @@
 LightBlue
 ====================
 
+Version 1.1.22
+--------------------
+###Implementation
+* Switch to Paket package manager
+
 Version 1.1.21
 --------------------
 ###Implementation
