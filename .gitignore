@@ -43,6 +43,8 @@ local.properties
 *.sln.docstates
 .vs/
 
+.paket/paket.exe
+
 # Build results
 
 [Dd]ebug/
