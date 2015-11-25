@@ -6,6 +6,7 @@ Version 1.1.22
 ###Implementation
 * Switch to Paket package manager
 * Update to xunit 2.1
+* Update to Azure 2.8 SDK
 
 Version 1.1.21
 --------------------
