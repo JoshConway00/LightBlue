@@ -10,9 +10,6 @@ Microsoft.AspNet.Mvc
 Microsoft.AspNet.Razor
 Microsoft.AspNet.Web.Optimization
 Microsoft.AspNet.WebPages
-Microsoft.Data.Edm
-Microsoft.Data.OData
-Microsoft.Data.Services.Client
 Microsoft.jQuery.Unobtrusive.Validation
 Microsoft.Owin
 Microsoft.Owin.Host.SystemWeb
@@ -24,11 +21,8 @@ Microsoft.Owin.Security.MicrosoftAccount
 Microsoft.Owin.Security.OAuth
 Microsoft.Owin.Security.Twitter
 Microsoft.Web.Infrastructure
-Microsoft.WindowsAzure.ConfigurationManager
 Modernizr
 Newtonsoft.Json
 Owin
 Respond
-System.Spatial
 WebGrease
-WindowsAzure.Storage

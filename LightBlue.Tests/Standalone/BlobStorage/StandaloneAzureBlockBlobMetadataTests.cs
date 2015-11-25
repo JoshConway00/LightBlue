@@ -3,8 +3,6 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
-using AssertExLib;
-
 using ExpectedObjects;
 
 using LightBlue.Standalone;
@@ -47,11 +45,11 @@ namespace LightBlue.Tests.Standalone.BlobStorage
 
         [Theory]
         [MemberData("BlobNames")]
-        public void WillThrowOnAsyncSaveOfMetadataIfBlobDoesNotExist(string blobName)
+        public async Task WillThrowOnAsyncSaveOfMetadataIfBlobDoesNotExist(string blobName)
         {
             var blob = new StandaloneAzureBlockBlob(BasePath, blobName);
 
-            AssertEx.Throws<StorageException>(() => blob.SetMetadataAsync());
+            await Assert.ThrowsAsync<StorageException>(() => blob.SetMetadataAsync());
         }
 
         [Theory]
