@@ -5,6 +5,7 @@ Version 1.1.22
 --------------------
 ###Implementation
 * Switch to Paket package manager
+* Update to xunit 2.1
 
 Version 1.1.21
 --------------------

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using LightBlue.Standalone;
 using Xunit;
-using Xunit.Extensions;
 
 namespace LightBlue.Tests.Standalone
 {

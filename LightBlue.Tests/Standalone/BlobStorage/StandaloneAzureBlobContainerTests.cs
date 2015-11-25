@@ -9,7 +9,6 @@ using LightBlue.Standalone;
 using Microsoft.WindowsAzure.Storage.Blob;
 
 using Xunit;
-using Xunit.Extensions;
 
 namespace LightBlue.Tests.Standalone.BlobStorage
 {

@@ -9,4 +9,3 @@ Newtonsoft.Json
 System.Spatial
 WindowsAzure.Storage
 xunit
-xunit.extensions
